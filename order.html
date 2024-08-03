@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <script src="https://kit.fontawesome.com/499df1acb2.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/order.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    
+    
+
+        <!--form-->
+        <form action="#">
+        <div class="container">
+                <h1 class="title">Order your products</h1>
+           
+            <!--product-name-->
+            <fieldset>
+                <legend>Fruits</legend>
+                 <label>Apple (kg): <input type="number" id="apple" min="0" step="0.1"></label>
+                 <label>Orange(kg): <input type="number" id="orange" min="0" step="0.1"></label>
+                 <label>Banana (kg): <input type="number" id="banana" min="0" step="0.1"></label>
+                 <label>Grapes (kg):<input type="number" id="grapes" min="0" step="0.1"></label>
+                 <label>Pears (kg):<input type="number" id="pears" min="0" step="0.1"></label>
+                 <label>Avacado (kg):<input type="number" id="avacado" min="0" step="0.1"></label>
+                </fieldset>
+
+            <fieldset>
+                <legend>Vegetables</legend>
+                 <label>Beetroot (kg): <input type="number" id="beetroot" min="0" step="0.1"></label>
+                 <label>Leeks (kg): <input type="number" id="leeks" min="0" step="0.1"></label>
+                 <label>Beans (kg): <input type="number" id="Beans" min="0" step="0.1"></label>
+                 <label>Cabbage (kg):<input type="number" id="cabbage" min="0" step="0.1"></label>
+                 <label>Potatoe (kg):<input type="number" id="potatoe" min="0" step="0.1"></label>
+                 <label>Brinjal  (kg):<input type="number" id="brinjal" min="0" step="0.1"></label>
+                </fieldset>
+
+            <fieldset>
+                <legend>Dairy product</legend>
+                <label>Milk (qty): <input type="number" id="milk" min="0" step="1"></label>
+                <label>Butter (qty): <input type="number" id="butter" min="0" step="1"></label>
+                <label>Yogurt (qty): <input type="number" id="yogurt" min="0" step="1"></label>
+                <label>Ice cream (qty): <input type="number" id="icecream" min="0" step="1"></label>
+                <label>Curd (qty): <input type="number" id="curd" min="0" step="1"></label>
+                <label>Cheese (qty): <input type="number" id="cheese" min="0" step="1"></label>
+            </fieldset>
+
+            <fieldset>
+            <legend>Meat and Seafood</legend>
+            <label>Chicken (kg): <input type="number" id="chicken" min="0" step="0.1"></label>
+            <label>Beef (kg): <input type="number" id="beef" min="0" step="0.1"></label>
+            <label>Prawns (kg): <input type="number" id="prawns" min="0" step="0.1"></label>
+            <label>Dry Fish(kg): <input type="number" id="dryfish" min="0" step="0.1"></label>
+            <label> Fish (kg): <input type="number" id="fish" min="0" step="0.1"></label>
+            <label>Squid (kg): <input type="number" id="squid" min="0" step="0.1"></label>
+               
+            </fieldset>
+
+            <fieldset>
+                <legend>Baking and Cooking Ingredients</legend>
+                <label>Flour (qty): <input type="number" id="flour" min="0" step="1"></label>
+                <label>Oil (qty): <input type="number" id="oil" min="0" step="1"></label>
+                <label>Sugar (qty): <input type="number" id="sugar" min="0" step="1"></label>
+                <label>Salt (qty): <input type="number" id="salt" min="0" step="1"></label>
+                <label>Cinnamon (qty): <input type="number" id="cinnamon" min="0" step="1"></label>
+                <label>Egg (qty): <input type="number" id="egg" min="0" step="1"></label>
+
+            </fieldset>
+
+            <button type="button" id="add-to-cart">Add to Cart</button>
+            <button type="button" id="save-favourites">Save as favourites</button>
+            <button type="button" id="apply-favourites">Apply favourites</button>
+        </div>
+        </form>
+            
+           
+
+        <div id="cart">
+            <table id="item-list-body">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+                <tfoot>
+                    <tr>
+                    <td colspan="2">Total Price:</td>
+                    <td id="orderTotalPrice">0.00</td>
+                </tr>
+                </tfoot>
+            </table>
+            <a href="../html/personal_details.html" ><button>Buy Now</button></a>
+        </div>
+        <p id="output"></p>
+        
+    <footer>
+        <section class="foot">
+            <section class="foot-content">
+            
+                <p>Contact:076-123-7466</p>
+                <p>Email:eshop@gmail.com</p>
+                <p>&copy;2024 Sashmitha Jayaseelan. All rights Reserved.</p>
+            </section>
+        </section>  
+    
+    
+    </footer>
+    <script src="./main.js"></script>
+</body>
+
+
+</html>
