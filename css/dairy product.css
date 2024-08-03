@@ -1,0 +1,144 @@
+*{
+    font-family: poppins;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #ecf7ee;
+    padding: 20px;
+}
+main{
+    padding: 10px;
+}
+
+.content li{
+    padding: 20px;
+}
+
+.flexbox-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly ;
+}
+
+.flexbox{
+    width: 200px;
+    height: 200px;
+    background-color:#ecf7ec; 
+    font-size: 25px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 10px;
+    
+}
+
+.flexbox img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.order{
+    display: flex;
+    align-items: last baseline;
+    font-size: larger;
+    
+}
+
+.cart{
+    background-color:aliceblue;
+    color: #4eb060;
+  }
+
+  .favourites{
+    color: rgb(255, 30, 0);
+  }
+
+
+.foot{
+    background-color: #ecf7ee;
+    text-align: center;
+    width: 100%;
+   bottom: 0; 
+    justify-content: space-around;
+    margin-bottom: 20px;
+    position: absolute;
+}
+
+
+ /*Mobile version*/
+
+ @media only screen and (max-width:1000px){
+   
+    header{
+        margin-left: -484px;
+        padding-left: 503px;
+        margin-right: -1245px;
+        padding-bottom: 44px;
+    }
+
+    h2{
+        font-size: 80px;
+        margin-right: -665px;
+        margin-top: 120px;
+    }
+      
+
+    .content p{
+        font-size: 54px;
+        margin-right: -1048px;
+    }
+
+    b{
+        font-size: 50px;
+    }
+
+    .content li{
+        font-size: 50px;
+        margin-right: -895px;
+    }
+
+    .flexbox-container{
+        margin-right: 120px;
+    }
+
+    .flexbox{
+        margin-right: 75px;
+        padding-right: 416px;
+        padding-bottom: 499px;
+    }
+
+    img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .flexbox p{
+        font-size: 40px;
+    }
+
+    p{
+        font-size: 40px;
+    }
+      
+    .foot{
+        margin-left: 12px;
+        margin-bottom: -2362px;
+        font-size: 40px;
+        padding-right: 273px;
+        padding-left: 1371px;
+    }
+    
+    .foot-content p{
+        align-items: center;
+        margin-left: -1212px;
+    }
+
+
+    
+    }

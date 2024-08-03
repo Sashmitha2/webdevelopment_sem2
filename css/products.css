@@ -1,0 +1,202 @@
+*{
+    font-family: poppins;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #ecf7ee;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+    max-width:100% ;
+    width: 120%;
+    margin: auto;
+
+}
+
+nav p{
+    display: flex;
+    justify-content: last baseline;
+}
+
+.menu-item{
+    font-weight: 600;
+    padding: 3px 10px;
+    margin: 0px 15px;
+    color:#3b3b3b ;
+    text-decoration: none;
+}
+
+.logo{
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #202020;
+    text-decoration: none;
+  }
+  
+  .logo span{
+    color: rgb(157, 255, 127);
+  }
+
+  .cart{
+    background-color:aliceblue;
+    color: #4eb060;
+  }
+  
+  .favourites{
+    color: rgb(255, 30, 0);
+  }
+
+
+a:hover{
+        
+    color:#4eb060 ;
+}
+
+a nav{
+    text-decoration: none;
+}
+
+
+
+#main-section{
+    display: flex;
+    margin-top: 10px;
+    padding: 20px;
+    
+}
+
+.container{
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ecf7ee;
+}
+
+
+
+.item{
+    color: black;
+}
+
+
+
+.foot{
+    flex: 1;
+    background-color: #ecf7ee;
+    text-align: center;
+    width: 100%;
+   bottom: auto; 
+    justify-content: space-around;
+    border-radius: 30px;
+    margin-bottom: -190px;
+    padding:10px ;
+  }
+  
+  /*Mobile version*/
+
+@media only screen and (max-width:1000px){
+   
+    header{
+        margin-left: -38px;
+        padding-left: 503px;
+        padding-right: 1184px;
+        padding-bottom: 120px;
+    }
+
+    h1{
+        font-size: 80px;
+        margin-right: -665px;
+        margin-top: 120px;
+    }
+      
+
+    .nav-bar{
+        padding: 25px;
+        margin-left: -22px;
+    
+    }
+
+    .logo{
+        font-size: 40px;
+    }
+
+    .nav-bar img{
+        width: 200px;
+        height: 200px;
+    }
+
+    span{
+        font-size: 40px;
+      }
+    
+
+    .menu-item{
+        padding: 13px;
+        font-size: 32px;
+    }
+    
+    .icons{
+        font-size: 40px;
+      }
+
+    b{
+     margin-right: -21px;
+    
+    }
+
+    #intro{
+        font-size: 40px;
+        margin-left: 74px;
+        margin-right: -403px;
+    }
+
+    .container{
+        margin-right: -1px;
+        padding-right: 32px;
+        margin-bottom: 971px;
+    }
+
+    .container h1{
+        font-size: 46px;
+        margin-top: 33px;
+    }
+
+     .item-3 h1{
+        margin-right: 120px;
+        margin-top: -8px;
+    }
+
+    img{
+        width: 342px;
+        height: 396px;
+    }
+    
+    p{
+        font-size: 40px;
+    }
+
+    .foot{
+        margin-left: 12px;
+        margin-bottom: -2362px;
+        font-size: 40px;
+        padding-right: 273px;
+        padding-left: 1371px;
+    }
+    
+    .foot-content p{
+        align-items: center;
+        margin-left: -1212px;
+      }
+
+
+}
