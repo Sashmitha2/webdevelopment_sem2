@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/personal_details.css">
+</head>
+<body>
+    <form id="theform">
+    <div class="container">
+        <h1 id="title">Personal Details</h1>
+
+        <!--name-->
+        <form id="form">
+        <div class="input-box">
+            <label for="name">Name:</label>
+            <input type="text" id=name name="name" placeholder="Enter your name" required>
+        </div>
+        
+        <div class="input-box">
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address"  required>
+        </div>
+        <!--phone number-->
+        <div class="input-box">
+            <label for="phone">Phone :</label>
+            <input type="text" id="phone" name="phone" required >
+        </div>
+        
+        
+        <!--payment-->
+        <div  class="input-box">
+            <label for="payment">Credit Card Number:</label>
+            <input type="text" id="payment" name="payment" required>
+        </div>
+
+        <!--country-->
+        <div  class="input-box">
+            <label for="country">Country:</label>
+            <input type="text" id="country" name="country" required>
+        </div>
+
+
+
+        <!--submit button-->
+        <div class="form-submit-btn">
+            <button type="submit" id="cart" >Pay</button>
+
+        </div>
+    </form>
+    </div>
+   </form>
+   <p id="output"></p>
+        
+   <footer>
+    <section class="foot">
+        <section class="foot-content">
+        
+            <p>Contact:076-123-7466</p>
+            <p>Email:eshop@gmail.com</p>
+            <p>&copy;2024 Sashmitha Jayaseelan. All rights Reserved.</p>
+        </section>
+    </section>  
+
+
+</footer>
+<script src="./checkout.js"></script>
+</body>
+</html>

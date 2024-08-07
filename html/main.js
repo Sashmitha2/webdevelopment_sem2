@@ -2,7 +2,7 @@
 
 const prices={
   apple:70.0, banana:50.0, orange:65.0,avacado:60.0,pears:50.0,grapes:40.0,
-  leeks:20.0, beans:20.0, beetroot:30.0, cabbage:45.0, brinjal:50.0, potatoe:35.0,
+  leeks:20.0, Beans:20.0, beetroot:30.0, cabbage:45.0, brinjal:50.0, potatoe:35.0,
   milk:120.0, butter:130.0, yogurt:135.0,cheese:120.0, icecream:140.0, curd:150.0,
   chicken:1200.0, beef:1200.0, prawns:1300.0,dryfish:1000.0, squid:1500.0, fish:1200.0,
   oil:1000.0, flour:1300.0, sugar:1200.0,salt:1250.0, cinnamon:1000.0, egg:200.0,
@@ -80,7 +80,8 @@ function addToCart(){
   
   
 }
-   
+  
+//fucntion to add to favourites
 function saveFavourites(){
   const cart=document.querySelector("#item-list-body tbody");
   const items=[];
